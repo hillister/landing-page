@@ -1,7 +1,5 @@
 * {
     font-family: 'Roboto';
-    background-color: #012750;
-    color: #ffff;
     padding: 0;
     margin: 0;
 }
@@ -20,16 +18,19 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 20px 250px;
-
+    background-color: #012750;
+    color: #ffff;
 }
 
 .logo {
     margin-right: auto;
     text-decoration: underline;
+    font-size: 24px;
 }
 
 header a {
     text-decoration: none;
+    color: #ffff;
 }
 
 header a:hover {
@@ -37,12 +38,13 @@ header a:hover {
 }
 
 /*first part*/
-
 .first-part {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 40px 240px;
+    background-color: #012750;
+    color: #ffff;
 }
 
 .first-part img {
@@ -74,6 +76,7 @@ li {
 }
 
 button {
+    color: #ffff;
     background-color: #35A7ff;
     font-size: 18px;
     border:none; 
@@ -87,4 +90,48 @@ button {
 button:hover {
     background-color: #adcfe9;
     cursor: pointer;
+}
+
+/*second part*/
+.bike-types img {
+    width: 300px;
+    height: 200px;
+}
+
+.bike-types{
+    padding-top: 70px;
+    display: flex; 
+    justify-content: space-around; 
+    
+}
+
+.second-part {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: #012750;
+}
+
+.second-part h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.second-part h5 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+/* third*/
+.third-part {
+    padding-top: 80px;
+    background-color: #ff5964;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-part p {
+    font-size: 36px;
+    font-style: italic;
 }
