@@ -1,16 +1,17 @@
 * {
     font-family: 'Roboto';
-    background-color: #38618C;
+    background-color: #012750;
     color: #ffff;
     padding: 0;
     margin: 0;
 }
 
+/*navbar*/
 header li {
     list-style: none;
     display: inline-block;
-    padding: 0 30px;
-    font-size: 25px;
+    padding: 0 40px;
+    font-size: 18px;
 
 }
 
@@ -18,11 +19,13 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px 250px;
+
 }
 
 .logo {
     margin-right: auto;
+    text-decoration: underline;
 }
 
 header a {
@@ -30,5 +33,58 @@ header a {
 }
 
 header a:hover {
-    color: #061a30;
+    color: #adcfe9;
+}
+
+/*first part*/
+
+.first-part {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px 240px;
+}
+
+.first-part img {
+    width: 500px;
+    height: auto;
+}
+
+ul { 
+    list-style-type: none;
+} 
+
+li {
+    text-decoration: none;
+}
+
+.awesome {
+    margin-right: auto;
+    text-align: center;
+}
+
+#line1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#line2 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #35A7ff;
+    font-size: 18px;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #adcfe9;
+    cursor: pointer;
 }
