@@ -9,7 +9,7 @@ header li {
     list-style: none;
     display: inline-block;
     padding: 0 40px;
-    font-size: 18px;
+    font-size: 20px;
 
 }
 
@@ -75,9 +75,9 @@ li {
     margin-top: 20px;
 }
 
-button {
+#button1 {
     color: #ffff;
-    background-color: #35A7ff;
+    background-color: #0684e4;
     font-size: 18px;
     border:none; 
     border-radius:10px; 
@@ -87,7 +87,7 @@ button {
     margin-top: 20px;
 }
 
-button:hover {
+#button1:hover {
     background-color: #adcfe9;
     cursor: pointer;
 }
@@ -125,13 +125,74 @@ button:hover {
 
 /* third*/
 .third-part {
-    padding-top: 80px;
-    background-color: #ff5964;
+    padding-top: 100px;
+    background-color: #afadad;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
 }
 
 .third-part p {
-    font-size: 36px;
+    font-size: 29px;
     font-style: italic;
+}
+
+
+
+
+.bottom {
+    font-weight: 800;
+    align-self: flex-end;
+    padding-right: 500px;
+}
+
+/* fourth*/
+.fourth-part {
+    background-color: #0684e4;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #ffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+#button2 {
+    color: #ffff;
+    background-color: #0684e4;
+    border-color: #ffff;
+    border-radius:10px; 
+    border-style: solid;
+    font-size: 20px;
+    font-weight: 800;
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+}
+
+#button2:hover {
+    background-color: #adcfe9;
+    cursor: pointer;
+}
+
+.contact-text {
+    margin-right: auto;
+    text-align: center;
+}
+/*footer*/
+.footer {
+    font-size: 10px;
+    color: #ffff;
+    background-color: #012750;
+    padding: 50px;
+    text-align: center;
 }
